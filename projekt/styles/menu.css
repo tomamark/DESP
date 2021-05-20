@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+dl, dt, dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul {
+	/*background-color: inherit;*/
+	color: #000;
+	padding: 2px;
+	/*font-weight: bold;*/
+	font-size: larger;
+	text-align: center;
+}
+
+    li a:link, li a:visited {
+        display: block;
+        text-decoration: none;
+        /*background-color: inherit;*/
+        border-style: outset;
+        color: #000;
+        padding: 5px;
+    }
+
+li a:hover {
+    /*background-color: #4cff00;*/
+    border-style: inset;
+    padding: 3px 2px 2px 3px;
+    border: 2px outset #ff0000;
+    text-align: right;
+}

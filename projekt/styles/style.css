@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+html, body {
+	width: 100%;
+	background-color: #ffffff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout :auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff000;
+}
